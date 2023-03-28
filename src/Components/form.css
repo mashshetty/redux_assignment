@@ -1,0 +1,81 @@
+body{
+    background: rgb(18, 0, 36);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box{
+    height: 440px;
+    width: 320px;
+    padding: 5px;
+    margin: 10px;
+    background-color: aliceblue;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    color: rgb(16, 0, 53);
+    border-radius: 5px;
+
+
+}
+
+.input_1{
+    padding: 10px 10px;
+    border: 2px solid rgba(16, 0, 53, 0.495);
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.sub{
+    padding: 9px 10px;
+    width: 88%;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.954);
+    background: rgb(16, 0, 53);
+    cursor: pointer;
+    /* font-weight: 600; */
+    font-size: 100%;
+    outline: none;
+    border: none;
+    margin-bottom: 5px;
+    
+}
+
+.subx{
+    padding: 9px 10px;
+    width: 88%;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.954);
+    background: rgb(255, 57, 57);
+    cursor: pointer;
+    /* font-weight: 600; */
+    font-size: 100%;
+    outline: none;
+    border: none;
+    
+}
+
+.usersREnder{
+    padding: 10px;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    background: honeydew;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: red;
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    font-size: 100%;
+    cursor: pointer;
+}
